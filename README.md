@@ -12,3 +12,38 @@ if
 if ... else
 for
 for (in)
+
+### JSDoc
+
+($ = caret position)
+
+* **doc**
+	
+		/**
+		 * $0
+		**/
+* **docc**
+	
+		/**
+		 * ${Class description}
+		 * @author ${user}
+		 * @version ${$Rev$}
+		 * @requires ${OtherClassName}
+		**/
+		$0
+* **docco**
+	
+		/**
+		 * @constructor
+		**/
+		$0
+* **docm**
+	
+		/**
+		 * ${Method description}
+		${* @private}
+		 * @param {${String|Object|Array|Boolean|Number}} ${paramName} ${Describe this parameter}
+		 * @returns ${Describe what it returns}
+		 * @type ${String|Object|Array|Boolean|Number}
+		**/
+		$0
