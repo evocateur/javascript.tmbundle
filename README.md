@@ -13,37 +13,12 @@ if ... else
 for
 for (in)
 
-### JSDoc
-
-($ = caret position)
-
-* **doc**
+* **Doc Block** (`doc`)
 	
 		/**
 		 * $0
-		**/
-* **docc**
+		 */
+
+* **Continue Doc Block** (`⌤`)
 	
-		/**
-		 * ${Class description}
-		 * @author ${user}
-		 * @version ${$Rev$}
-		 * @requires ${OtherClassName}
-		**/
-		$0
-* **docco**
-	
-		/**
-		 * @constructor
-		**/
-		$0
-* **docm**
-	
-		/**
-		 * ${Method description}
-		${* @private}
-		 * @param {${String|Object|Array|Boolean|Number}} ${paramName} ${Describe this parameter}
-		 * @returns ${Describe what it returns}
-		 * @type ${String|Object|Array|Boolean|Number}
-		**/
-		$0
+	Inside a doc block, creates a new line with * prefix
