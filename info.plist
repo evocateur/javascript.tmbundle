@@ -29,12 +29,11 @@
 			<string>------------------------------------</string>
 			<string>20E61C43-B81F-4FB9-9362-BFFE668EB9C9</string>
 			<string>36EC03E9-EFF4-479A-AB90-8DFA16800642</string>
-			<string>5CAA9822-629C-4362-B02A-FCEF38C79BD5</string>
-			<string>65AAF33F-7706-4FC0-B5E0-E9AABEF0731E</string>
-			<string>77750C34-3335-4766-900D-FFFF412DB7F5</string>
 			<string>4C6EDB43-3E2E-411B-A016-13C135C59833</string>
 			<string>7B9AEFCC-B450-416D-8527-430FE2A08568</string>
 			<string>AD506BEC-B33C-4168-A900-0A4D386A4B05</string>
+			<string>3DAB45A8-21C8-4581-809B-2D3C1E8FF1B0</string>
+			<string>092B230D-ACAB-4C38-B2E4-F7E013C7CDCB</string>
 		</array>
 		<key>submenus</key>
 		<dict>
@@ -74,6 +73,7 @@
 				<array>
 					<string>E47C0325-05F6-4606-9241-FA4D86F18DF9</string>
 					<string>4B9A16D2-81D1-4AA7-9CE9-14F3254D4A55</string>
+					<string>5CDD0BDD-34B8-431F-83EF-D3CCE981DF4C</string>
 				</array>
 				<key>name</key>
 				<string>JSDoc</string>
