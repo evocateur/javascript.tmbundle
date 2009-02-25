@@ -29,9 +29,6 @@
 			<string>------------------------------------</string>
 			<string>20E61C43-B81F-4FB9-9362-BFFE668EB9C9</string>
 			<string>36EC03E9-EFF4-479A-AB90-8DFA16800642</string>
-			<string>4C6EDB43-3E2E-411B-A016-13C135C59833</string>
-			<string>7B9AEFCC-B450-416D-8527-430FE2A08568</string>
-			<string>AD506BEC-B33C-4168-A900-0A4D386A4B05</string>
 			<string>3DAB45A8-21C8-4581-809B-2D3C1E8FF1B0</string>
 			<string>092B230D-ACAB-4C38-B2E4-F7E013C7CDCB</string>
 		</array>
@@ -83,11 +80,13 @@
 				<key>items</key>
 				<array>
 					<string>F0E4FB6A-4878-48C6-A777-62438DF1E14F</string>
+					<string>4C6EDB43-3E2E-411B-A016-13C135C59833</string>
 					<string>------------------------------------</string>
 					<string>73951799-AC15-40A6-81DB-EC051AB4A033</string>
 					<string>1717B5AE-209B-4548-9155-9E88A7230C1C</string>
 					<string>------------------------------------</string>
 					<string>77065D69-742A-4FF0-9A41-AD211DFBE72F</string>
+					<string>7B9AEFCC-B450-416D-8527-430FE2A08568</string>
 				</array>
 				<key>name</key>
 				<string>Function</string>
@@ -150,6 +149,7 @@
 				<key>items</key>
 				<array>
 					<string>DC8B46FB-8ADA-45EA-8F36-94C807A0D302</string>
+					<string>AD506BEC-B33C-4168-A900-0A4D386A4B05</string>
 					<string>------------------------------------</string>
 					<string>2F96136B-0193-42F5-90FC-B6F456A3AD77</string>
 				</array>
