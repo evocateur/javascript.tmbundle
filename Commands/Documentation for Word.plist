@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
 	<key>command</key>
-	<string># index created using: curl -s 'http://devguru.com/technologies/javascript/index.asp'|grep -o '&lt;a href="[0-9]*.asp"&gt;[a-z][a-zA-Z]*&lt;/a&gt;'|perl -pe 's/&lt;a href="([^"]*)"&gt;([^&lt;]*)&lt;\/a&gt;/$2\t$1/'|sort|uniq|gzip &gt;dev_guru_index.gz
+	<string>
+ref=$(grep -w "^${TM_SELECTED_TEXT:-$TM_CURRENT_WORD}" "$TM_BUNDLE_SUPPORT/dmo_index"|cut -f2)
 
-ref=$(zgrep -w "^${TM_SELECTED_TEXT:-$TM_CURRENT_WORD}" "$TM_BUNDLE_SUPPORT/dev_guru_index.gz"|cut -f2)
-
-[[ -n "$ref" ]] &amp;&amp; exit_show_html "&lt;meta http-equiv='Refresh' content='0;URL=http://devguru.com/technologies/javascript/$ref'&gt;"
+[[ -n "$ref" ]] &amp;&amp; exit_show_html "&lt;meta http-equiv='Refresh' content='0;URL=https://developer.mozilla.org/En/$ref?action=print'&gt;"
 
 echo "No documentation found."</string>
 	<key>fallbackInput</key>
